@@ -1,20 +1,17 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
 }
 
 android {
-    namespace = "com.arnav.hostellation"
-    compileSdk = libs.versions.projectCompileSdkVersion.get().toInt()
+    namespace = "com.arnav.core.presentation.design"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.arnav.hostellation"
-        minSdk = libs.versions.projectMinimumSdkVersion.get().toInt()
-        targetSdk = libs.versions.projectTargetSdkVersion.get().toInt()
-        versionCode = libs.versions.projectVersionCode.get().toInt()
-        versionName = libs.versions.projectVersionName.get()
+        minSdk = 24
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {

@@ -1,0 +1,5764 @@
+{
+  "properties": [
+    {
+      "id": 100,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Abbey Court",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 85,
+        "numberOfRatings": "11133"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 46,
+        "security": 84,
+        "location": 95,
+        "staff": 88,
+        "fun": 80,
+        "clean": 83,
+        "facilities": 83,
+        "value": 83,
+        "average": 85
+      },
+      "latitude": 53.3474366,
+      "longitude": -6.2603459,
+      "isFeatured": true,
+      "type": "HOSTEL",
+      "address1": "29 Bachelors Walk",
+      "address2": "Dublin 1",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-16T00:00:00+00:00",
+      "district": null,
+      "districts": [],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "14.18",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "55.76",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "14.18",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "19.13",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            29013,
+            24900
+          ],
+          "totalDiscount": "23.50"
+        },
+        "original": "25.01"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "19.13",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            29013,
+            24900
+          ],
+          "totalDiscount": "23.50"
+        },
+        "original": "25.01"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "74.66",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            24900
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "82.96"
+      },
+      "isNew": false,
+      "overview": "We&#039;re a stone&#039;s throw from Temple Bar, O&#039;Connell Bridge, Trinity College, Dublin Castle and much, much more!",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.37,
+        "units": "km"
+      },
+      "position": 2,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 2,
+        "rank2": 2,
+        "rank3": 2,
+        "rank4": 2,
+        "rank5": 2,
+        "rank6": 2,
+        "rank7": 2,
+        "rank8": 2,
+        "rank9": 2
+      },
+      "promotions": [
+        {
+          "id": 24900,
+          "type": "MOBILE",
+          "stack": true,
+          "name": "MOBILEPROMOTION",
+          "discount": 10
+        },
+        {
+          "id": 29013,
+          "type": "CUSTOM",
+          "stack": false,
+          "name": "FL in exchange of Exclusive Rates",
+          "discount": 15
+        }
+      ],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "25.01",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "25.01",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "82.96",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 24,
+      "veryPopular": false,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/100/36",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/100/qzseav8zdfqpugqjpvlj",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/100/m8jdgtwpgjzdhezfeipk",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/100/wdgoleypizfmsjk91okj",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/100/36.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/100/qzseav8zdfqpugqjpvlj"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/100/m8jdgtwpgjzdhezfeipk"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/100/wdgoleypizfmsjk91okj"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            },
+            {
+              "name": "Free City Tour",
+              "id": "FREECITYTOUR"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Security Lockers",
+              "id": "LOCKERS"
+            },
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Bicycle Parking",
+              "id": "BICYCLEPARKING"
+            },
+            {
+              "name": "Meeting Room",
+              "id": "MEETINGROOM"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Utensils",
+              "id": "UTENSILS"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Servizi aggiornate",
+              "id": "SAFEDEPOSITBOX"
+            },
+            {
+              "name": "Microwave",
+              "id": "MICROWAVE"
+            },
+            {
+              "name": "Washing machine",
+              "id": "WASHINGMACHINE"
+            },
+            {
+              "name": "Towels Not Included",
+              "id": "TOWELSNOTINCLUDED"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Airport Transfers",
+              "id": "AIRPORTTRANSFERS"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "ATM",
+              "id": "ATM"
+            },
+            {
+              "name": "Shuttle Bus",
+              "id": "SHUTTLEBUS"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "PlayStation",
+              "id": "PLAYSTATION"
+            },
+            {
+              "name": "DVD's",
+              "id": "DVDS"
+            },
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            },
+            {
+              "name": "Games Room",
+              "id": "GAMESROOM"
+            },
+            {
+              "name": "Pool Table",
+              "id": "POOLTABLE"
+            },
+            {
+              "name": "Foosball",
+              "id": "FUSBALL"
+            },
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Kinlay House Dublin",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 74,
+        "numberOfRatings": "8686"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 36,
+        "security": 74,
+        "location": 86,
+        "staff": 82,
+        "fun": 67,
+        "clean": 68,
+        "facilities": 68,
+        "value": 73,
+        "average": 74
+      },
+      "latitude": 53.3437259,
+      "longitude": -6.269898,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "2-12 Lord Edward Street",
+      "address2": "Temple Bar",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-24T00:00:00+00:00",
+      "district": {
+        "id": "386",
+        "name": "Temple Bar"
+      },
+      "districts": [
+        {
+          "id": 386,
+          "name": "Temple Bar"
+        },
+        {
+          "id": 394,
+          "name": "Dublin Castle"
+        },
+        {
+          "id": 395,
+          "name": "Christ Church"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "17.50",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "35.96",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "17.50",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "27.22",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            24903
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "30.24"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "27.22",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            24903
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "30.24"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "45.68",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            24903
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "50.76"
+      },
+      "isNew": false,
+      "overview": "Accommodating backpackers and travellers from all over the world for nearly 25 years, Kinlay House is the place to stay in Dublin.",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 1.01,
+        "units": "km"
+      },
+      "position": 2,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 8,
+        "rank2": 8,
+        "rank3": 8,
+        "rank4": 8,
+        "rank5": 8,
+        "rank6": 8,
+        "rank7": 8,
+        "rank8": 8,
+        "rank9": 8
+      },
+      "promotions": [
+        {
+          "id": 24903,
+          "type": "MOBILE",
+          "stack": true,
+          "name": "MOBILEPROMOTION",
+          "discount": 10
+        }
+      ],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "30.24",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "30.24",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "50.76",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 10,
+      "veryPopular": false,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/113/1",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/113/2",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/113/3",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/113/4",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/113/1.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/113/12.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/113/13.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/113/14.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Breakfast",
+              "id": "BREAKFASTINCLUDED"
+            },
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            },
+            {
+              "name": "Free City Tour",
+              "id": "FREECITYTOUR"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Security Lockers",
+              "id": "LOCKERS"
+            },
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Meeting Room",
+              "id": "MEETINGROOM"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Book Exchange",
+              "id": "BOOKEXCHANGE"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Dishwasher",
+              "id": "DISHWASHER"
+            },
+            {
+              "name": "Cooker",
+              "id": "COOKER"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Jobs Board",
+              "id": "JOBSBOARD"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Servizi aggiornate",
+              "id": "SAFEDEPOSITBOX"
+            },
+            {
+              "name": "Microwave",
+              "id": "MICROWAVE"
+            },
+            {
+              "name": "Card Phones",
+              "id": "CARDPHONES"
+            },
+            {
+              "name": "Washing machine",
+              "id": "WASHINGMACHINE"
+            },
+            {
+              "name": "Towels Not Included",
+              "id": "TOWELSNOTINCLUDED"
+            },
+            {
+              "name": "Follows Covid-19 sanitation guidance",
+              "id": "SANITISATIONBADGE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Airport Transfers",
+              "id": "AIRPORTTRANSFERS"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Telephone/Fax Facilities",
+              "id": "FAXSERVICE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "Shuttle Bus",
+              "id": "SHUTTLEBUS"
+            },
+            {
+              "name": "Postal Service",
+              "id": "POSTALSERVICE"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Late check-out",
+              "id": "LATECHECKOUT"
+            },
+            {
+              "name": "Reception (limited hours)",
+              "id": "RECEPTIONLIMITEDHOURS"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Meals available",
+              "id": "MEALSAVAILABLE"
+            },
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Mini-Supermarket",
+              "id": "MINISUPERMARKET"
+            },
+            {
+              "name": "Cafe",
+              "id": "CAFE"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "PlayStation",
+              "id": "PLAYSTATION"
+            },
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            },
+            {
+              "name": "Games Room",
+              "id": "GAMESROOM"
+            },
+            {
+              "name": "Pool Table",
+              "id": "POOLTABLE"
+            },
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48058,
+      "isPromoted": true,
+      "hbid": 0,
+      "name": "Generator Dublin",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 86,
+        "numberOfRatings": "4937"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 13,
+        "security": 92,
+        "location": 89,
+        "staff": 85,
+        "fun": 82,
+        "clean": 85,
+        "facilities": 86,
+        "value": 83,
+        "average": 86
+      },
+      "latitude": 53.3483318,
+      "longitude": -6.277839,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "Smithfield Square",
+      "address2": "Dublin 7",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-25T00:00:00+00:00",
+      "district": {
+        "id": "386",
+        "name": "Temple Bar"
+      },
+      "districts": [
+        {
+          "id": 386,
+          "name": "Temple Bar"
+        },
+        {
+          "id": 395,
+          "name": "Christ Church"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "21.94",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "88.86",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "21.94",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "34.08",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            24882
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "37.87"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "34.08",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            24882
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "37.87"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "101.64",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            24882
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "112.93"
+      },
+      "isNew": false,
+      "overview": "We offer state-of-the-art facilities, quality rooms, a central location, a fun atmosphere and much more - for the right price!",
+      "isElevate": false,
+      "hostelworldRecommends": true,
+      "distance": {
+        "value": 1.19,
+        "units": "km"
+      },
+      "position": 3,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 9,
+        "rank2": 9,
+        "rank3": 9,
+        "rank4": 9,
+        "rank5": 9,
+        "rank6": 9,
+        "rank7": 9,
+        "rank8": 9,
+        "rank9": 9
+      },
+      "promotions": [
+        {
+          "id": 24882,
+          "type": "APPS",
+          "stack": true,
+          "name": "APPSPROMOTION",
+          "discount": 10
+        }
+      ],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "37.87",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "37.87",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "112.93",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 10,
+      "veryPopular": false,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/48058/2",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/48058/1",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/48058/10",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/48058/11",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/48058/2.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/48058/1.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/48058/10.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/48058/11.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Wheelchair Friendly",
+              "id": "WHEELCHAIRACCESSIBLE"
+            },
+            {
+              "name": "Security Lockers",
+              "id": "LOCKERS"
+            },
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Elevator",
+              "id": "ELEVATOR"
+            },
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Card Phones",
+              "id": "CARDPHONES"
+            },
+            {
+              "name": "Follows Covid-19 sanitation guidance",
+              "id": "SANITISATIONBADGE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Bicycle Hire",
+              "id": "BICYCLEHIRE"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "ATM",
+              "id": "ATM"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Late check-out",
+              "id": "LATECHECKOUT"
+            },
+            {
+              "name": "Reception (limited hours)",
+              "id": "RECEPTIONLIMITEDHOURS"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Restaurant",
+              "id": "RESTAURANT"
+            },
+            {
+              "name": "Bar",
+              "id": "BAR"
+            },
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Cafe",
+              "id": "CAFE"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Games Room",
+              "id": "GAMESROOM"
+            },
+            {
+              "name": "Pool Table",
+              "id": "POOLTABLE"
+            },
+            {
+              "name": "Foosball",
+              "id": "FUSBALL"
+            },
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 277010,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Gardiner House",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 90,
+        "numberOfRatings": "1524"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 16,
+        "security": 93,
+        "location": 80,
+        "staff": 95,
+        "fun": 85,
+        "clean": 96,
+        "facilities": 91,
+        "value": 93,
+        "average": 90
+      },
+      "latitude": 53.3576982,
+      "longitude": -6.2597981,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "76 Gardiner Upper Street",
+      "address2": "",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-23T00:00:00+00:00",
+      "district": {
+        "id": "385",
+        "name": "Croke Park"
+      },
+      "districts": [
+        {
+          "id": 385,
+          "name": "Croke Park"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "24.91",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "99.64",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "24.91",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "41.52",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            2044
+          ],
+          "totalDiscount": "6.00"
+        },
+        "original": "44.17"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "41.52",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            2044
+          ],
+          "totalDiscount": "6.00"
+        },
+        "original": "44.17"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "129.20",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            2044
+          ],
+          "totalDiscount": "6.00"
+        },
+        "original": "137.45"
+      },
+      "isNew": true,
+      "overview": "Gardiner House is a new hostel in the bustling city of Dublin offering very comfortable and modern accommodation with a great community vibe.",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.77,
+        "units": "km"
+      },
+      "position": 5,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 10,
+        "rank2": 10,
+        "rank3": 10,
+        "rank4": 10,
+        "rank5": 10,
+        "rank6": 10,
+        "rank7": 10,
+        "rank8": 10,
+        "rank9": 10
+      },
+      "promotions": [
+        {
+          "id": 2044,
+          "type": "LOS",
+          "stack": false,
+          "name": "LENGTHOFSTAY",
+          "discount": 6
+        }
+      ],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "44.17",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "44.17",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "137.45",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 6,
+      "veryPopular": false,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/277010/uts4nwkj5qeh3tvmv5sr",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/277010/wpfzdozhygxtc7944jul",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/277010/eu4j8s4izf5ffg5f8ett",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/277010/4",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/277010/uts4nwkj5qeh3tvmv5sr"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/277010/wpfzdozhygxtc7944jul"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/277010/eu4j8s4izf5ffg5f8ett"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/277010/4.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Breakfast",
+              "id": "BREAKFASTINCLUDED"
+            },
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Elevator",
+              "id": "ELEVATOR"
+            },
+            {
+              "name": "Bicycle Parking",
+              "id": "BICYCLEPARKING"
+            },
+            {
+              "name": "BBQ",
+              "id": "BBQ"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Book Exchange",
+              "id": "BOOKEXCHANGE"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Dishwasher",
+              "id": "DISHWASHER"
+            },
+            {
+              "name": "Cooker",
+              "id": "COOKER"
+            },
+            {
+              "name": "Fridge/Freezer",
+              "id": "FRIDGEFREEZER"
+            },
+            {
+              "name": "Utensils",
+              "id": "UTENSILS"
+            },
+            {
+              "name": "Dryer",
+              "id": "DRYER"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Parking",
+              "id": "PARKING"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Servizi aggiornate",
+              "id": "SAFEDEPOSITBOX"
+            },
+            {
+              "name": "Microwave",
+              "id": "MICROWAVE"
+            },
+            {
+              "name": "Washing machine",
+              "id": "WASHINGMACHINE"
+            },
+            {
+              "name": "FLEXIBLENRR",
+              "id": "FLEXIBLENRR"
+            },
+            {
+              "name": "Follows Covid-19 sanitation guidance",
+              "id": "SANITISATIONBADGE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Airport Transfers",
+              "id": "AIRPORTTRANSFERS"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Telephone/Fax Facilities",
+              "id": "FAXSERVICE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Late check-out",
+              "id": "LATECHECKOUT"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "DVD's",
+              "id": "DVDS"
+            },
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            },
+            {
+              "name": "Games Room",
+              "id": "GAMESROOM"
+            },
+            {
+              "name": "Pool Table",
+              "id": "POOLTABLE"
+            },
+            {
+              "name": "Foosball",
+              "id": "FUSBALL"
+            },
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Ashfield Hostel",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 87,
+        "numberOfRatings": "8194"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 96,
+        "security": 90,
+        "location": 97,
+        "staff": 92,
+        "fun": 81,
+        "clean": 79,
+        "facilities": 81,
+        "value": 87,
+        "average": 87
+      },
+      "latitude": 53.346212,
+      "longitude": -6.257533,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "19-20 DOlier Street",
+      "address2": "Dublin 2",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-24T00:00:00+00:00",
+      "district": {
+        "id": "384",
+        "name": "3 Arena"
+      },
+      "districts": [
+        {
+          "id": 384,
+          "name": "3 Arena"
+        },
+        {
+          "id": 386,
+          "name": "Temple Bar"
+        },
+        {
+          "id": 393,
+          "name": "Trinity College"
+        },
+        {
+          "id": 394,
+          "name": "Dublin Castle"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "23.75",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "114.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "23.75",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "36.42",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "36.42",
+        "currency": "EUR"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "158.33",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Adjacent to Trinity College, our bright, airy hostel has all rooms ensuite, Free WiFi, breakfast, bed linen, maps and a smiling welcome …",
+      "isElevate": false,
+      "hostelworldRecommends": true,
+      "distance": {
+        "value": 0.54,
+        "units": "km"
+      },
+      "position": 2,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 5,
+        "rank2": 5,
+        "rank3": 7,
+        "rank4": 5,
+        "rank5": 7,
+        "rank6": 5,
+        "rank7": 7,
+        "rank8": 5,
+        "rank9": 7
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "36.42",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "36.42",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "158.33",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "veryPopular": false,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/103/21",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/103/22",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/103/25",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/103/24",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/103/21.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/103/22.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/103/25.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/103/24.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Breakfast",
+              "id": "BREAKFASTINCLUDED"
+            },
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Security Lockers",
+              "id": "LOCKERS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Elevator",
+              "id": "ELEVATOR"
+            },
+            {
+              "name": "Book Exchange",
+              "id": "BOOKEXCHANGE"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Servizi aggiornate",
+              "id": "SAFEDEPOSITBOX"
+            },
+            {
+              "name": "FLEXIBLENRR",
+              "id": "FLEXIBLENRR"
+            },
+            {
+              "name": "Follows Covid-19 sanitation guidance",
+              "id": "SANITISATIONBADGE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "DVD's",
+              "id": "DVDS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21269,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Leeson Lodge",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 73,
+        "numberOfRatings": "143"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 6,
+        "security": 73,
+        "location": 80,
+        "staff": 83,
+        "fun": 63,
+        "clean": 67,
+        "facilities": 70,
+        "value": 77,
+        "average": 73
+      },
+      "latitude": 53.3317827,
+      "longitude": -6.2527871,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "1 Upper Leeson Street",
+      "address2": "Dublin 4",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-24T00:00:00+00:00",
+      "district": null,
+      "districts": [],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "54.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "54.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "64.00",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "64.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "The Leeson Lodge house is located on Leeson Street Bridge, an exclusive area of Dublin city close to St Stephen's Green all the best restaurants and shopping areas.",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 2.17,
+        "units": "km"
+      },
+      "position": 6,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 0,
+        "rank2": 0,
+        "rank3": 0,
+        "rank4": 0,
+        "rank5": 0,
+        "rank6": 0,
+        "rank7": 0,
+        "rank8": 0,
+        "rank9": 0
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "64.00",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "64.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/21269/501",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/21269/12",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/21269/2",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/21269/11",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/21269/501.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/21269/12.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/21269/2.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/21269/11.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free Parking",
+              "id": "FREEPARKING"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Bicycle Parking",
+              "id": "BICYCLEPARKING"
+            },
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Cots available",
+              "id": "COTSAVAILABLE"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Parking",
+              "id": "PARKING"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Shuttle Bus",
+              "id": "SHUTTLEBUS"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Reception (limited hours)",
+              "id": "RECEPTIONLIMITEDHOURS"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25382,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Abigails Hostel",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 86,
+        "numberOfRatings": "12495"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 117,
+        "security": 89,
+        "location": 98,
+        "staff": 89,
+        "fun": 80,
+        "clean": 81,
+        "facilities": 82,
+        "value": 84,
+        "average": 86
+      },
+      "latitude": 53.346362,
+      "longitude": -6.261097,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "7 - 9 Aston Quay",
+      "address2": "Dublin 2",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-24T00:00:00+00:00",
+      "district": {
+        "id": "386",
+        "name": "Temple Bar"
+      },
+      "districts": [
+        {
+          "id": 386,
+          "name": "Temple Bar"
+        },
+        {
+          "id": 393,
+          "name": "Trinity College"
+        },
+        {
+          "id": 394,
+          "name": "Dublin Castle"
+        },
+        {
+          "id": 395,
+          "name": "Christ Church"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "24.70",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "125.40",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "24.70",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "37.37",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "37.37",
+        "currency": "EUR"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "167.20",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "A whopping 98% rating for our location means you can be sure you have the very best base for exploring and enjoying Dublin City!",
+      "isElevate": false,
+      "hostelworldRecommends": true,
+      "distance": {
+        "value": 0.5,
+        "units": "km"
+      },
+      "position": 2,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 4,
+        "rank2": 4,
+        "rank3": 5,
+        "rank4": 4,
+        "rank5": 5,
+        "rank6": 4,
+        "rank7": 5,
+        "rank8": 4,
+        "rank9": 5
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "37.37",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "37.37",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "167.20",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "veryPopular": true,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/25382/1",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/25382/gywqa6wpk0vn2uvzelea",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/25382/atqpgptzz8kmbu4pow5m",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/25382/kciskybbyieycs77l6ur",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/25382/1.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/25382/gywqa6wpk0vn2uvzelea"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/25382/atqpgptzz8kmbu4pow5m"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/25382/kciskybbyieycs77l6ur"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Breakfast",
+              "id": "BREAKFASTINCLUDED"
+            },
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Security Lockers",
+              "id": "LOCKERS"
+            },
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Elevator",
+              "id": "ELEVATOR"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Book Exchange",
+              "id": "BOOKEXCHANGE"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "FLEXIBLENRR",
+              "id": "FLEXIBLENRR"
+            },
+            {
+              "name": "Follows Covid-19 sanitation guidance",
+              "id": "SANITISATIONBADGE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "DVD's",
+              "id": "DVDS"
+            },
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Abrahams Hostel",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 80,
+        "numberOfRatings": "10886"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 149,
+        "security": 86,
+        "location": 90,
+        "staff": 86,
+        "fun": 71,
+        "clean": 74,
+        "facilities": 74,
+        "value": 77,
+        "average": 80
+      },
+      "latitude": 53.351596,
+      "longitude": -6.254808,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "82 Lower Gardiner Street",
+      "address2": "",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-24T00:00:00+00:00",
+      "district": {
+        "id": "384",
+        "name": "3 Arena"
+      },
+      "districts": [
+        {
+          "id": 384,
+          "name": "3 Arena"
+        },
+        {
+          "id": 393,
+          "name": "Trinity College"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "18.05",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "76.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "18.05",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "30.72",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "30.72",
+        "currency": "EUR"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "114.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Our beloved hostel is a beautifully restored Georgian townhouse located next to Dublin's main bus/train terminals.",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.38,
+        "units": "km"
+      },
+      "position": 2,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 3,
+        "rank2": 3,
+        "rank3": 3,
+        "rank4": 3,
+        "rank5": 3,
+        "rank6": 3,
+        "rank7": 3,
+        "rank8": 3,
+        "rank9": 3
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "30.72",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "30.72",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "114.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "veryPopular": false,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/109/57",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/109/26",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/109/27",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/109/29",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/109/57.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/109/26.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/109/27.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/109/29.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Breakfast",
+              "id": "BREAKFASTINCLUDED"
+            },
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Security Lockers",
+              "id": "LOCKERS"
+            },
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "FLEXIBLENRR",
+              "id": "FLEXIBLENRR"
+            },
+            {
+              "name": "Follows Covid-19 sanitation guidance",
+              "id": "SANITISATIONBADGE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59815,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Marilyn Mansion",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 73,
+        "numberOfRatings": "132"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 3,
+        "security": 67,
+        "location": 67,
+        "staff": 73,
+        "fun": 60,
+        "clean": 80,
+        "facilities": 80,
+        "value": 87,
+        "average": 73
+      },
+      "latitude": 53.315195,
+      "longitude": -6.275929,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "37 Garville Avenue",
+      "address2": "",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-21T00:00:00+00:00",
+      "district": null,
+      "districts": [],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "999.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "999.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "999.00",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "999.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "A warm welcome awaits you at Marilyn Mansion.",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 4.09,
+        "units": "km"
+      },
+      "position": 3,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 19,
+        "rank2": 19,
+        "rank3": 18,
+        "rank4": 19,
+        "rank5": 18,
+        "rank6": 19,
+        "rank7": 18,
+        "rank8": 19,
+        "rank9": 18
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "999.00",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "999.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/59815/tmt8bzbcomwhpwvii0yz",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/59815/13",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/59815/14",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/59815/15",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/59815/tmt8bzbcomwhpwvii0yz"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/59815/13.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/59815/14.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/59815/15.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Bicycle Parking",
+              "id": "BICYCLEPARKING"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Cots available",
+              "id": "COTSAVAILABLE"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Parking",
+              "id": "PARKING"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "DVD's",
+              "id": "DVDS"
+            },
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            },
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27272,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Lansdowne Hotel",
+      "starRating": 3,
+      "overallRating": {
+        "overall": 97,
+        "numberOfRatings": "53"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 2,
+        "security": 100,
+        "location": 90,
+        "staff": 100,
+        "fun": 100,
+        "clean": 100,
+        "facilities": 100,
+        "value": 90,
+        "average": 97
+      },
+      "latitude": 53.3324806,
+      "longitude": -6.241158,
+      "isFeatured": false,
+      "type": "HOTEL",
+      "address1": "27/29 Pembroke Road",
+      "address2": "Ballsbridge",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-25T00:00:00+00:00",
+      "district": {
+        "id": "384",
+        "name": "3 Arena"
+      },
+      "districts": [
+        {
+          "id": 384,
+          "name": "3 Arena"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "163.40",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "163.40",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "188.73",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            1971
+          ],
+          "totalDiscount": "5.00"
+        },
+        "original": "198.66"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "188.73",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            1971
+          ],
+          "totalDiscount": "5.00"
+        },
+        "original": "198.66"
+      },
+      "isNew": false,
+      "overview": "The Lansdowne hotel is a boutique hotel set in the heart of Georgian Dublin. We are just a short stroll from Dublin citys main shopping and business district.\r\n\r\nThe RDS and Lansdowne road stadium, to name but a few sights, are directly on our doorstep. Relax in our Den bar where fine food is served by friendly staff daily or you can enjoy an abundance of restaurants, pubs, clubs and theatre in the area.\r\n\r\nThe air coach can drop you just a 5 minute walk from the hotel",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 2.4,
+        "units": "km"
+      },
+      "position": 6,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 32,
+        "rank2": 32,
+        "rank3": 33,
+        "rank4": 32,
+        "rank5": 33,
+        "rank6": 32,
+        "rank7": 33,
+        "rank8": 32,
+        "rank9": 33
+      },
+      "promotions": [
+        {
+          "id": 1971,
+          "type": "LOS",
+          "stack": false,
+          "name": "LENGTHOFSTAY",
+          "discount": 5
+        }
+      ],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "198.66",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "198.66",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 5,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/27272/1",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/27272/2",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/27272/3",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/27272/1.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/27272/2.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/27272/3.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Cots available",
+              "id": "COTSAVAILABLE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Servizi aggiornate",
+              "id": "SAFEDEPOSITBOX"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Telephone/Fax Facilities",
+              "id": "FAXSERVICE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Currency Exchange",
+              "id": "CURRENCYEXCHANGE"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Restaurant",
+              "id": "RESTAURANT"
+            },
+            {
+              "name": "Bar",
+              "id": "BAR"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 269339,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Garden Lane Backpackers",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 84,
+        "numberOfRatings": "515"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 7,
+        "security": 97,
+        "location": 63,
+        "staff": 83,
+        "fun": 80,
+        "clean": 91,
+        "facilities": 86,
+        "value": 86,
+        "average": 84
+      },
+      "latitude": 53.3410933,
+      "longitude": -6.2766718,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "Garden Lane",
+      "address2": "Christchurch",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-23T00:00:00+00:00",
+      "district": {
+        "id": "386",
+        "name": "Temple Bar"
+      },
+      "districts": [
+        {
+          "id": 386,
+          "name": "Temple Bar"
+        },
+        {
+          "id": 391,
+          "name": "Guinness Storehouse"
+        },
+        {
+          "id": 394,
+          "name": "Dublin Castle"
+        },
+        {
+          "id": 395,
+          "name": "Christ Church"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "31.22",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "116.82",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "31.22",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "51.36",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            2045
+          ],
+          "totalDiscount": "5.00"
+        },
+        "original": "54.06"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "51.36",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            2045
+          ],
+          "totalDiscount": "5.00"
+        },
+        "original": "54.06"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "147.03",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            2045
+          ],
+          "totalDiscount": "5.00"
+        },
+        "original": "154.77"
+      },
+      "isNew": false,
+      "overview": "Garden Lane is the type of hostel you stay in and never forget about it – international, cosy, central, high cleanliness standard scores given by guests and known for the friendliness of its superb staff!\r\nBesides being located in the historic Liberties area of Dublin 8, close to the world famous Guinness Brewery and just a stone’s throw from the city centre and main attractions like Temple Bar and Grafton Street, it provides you with a well equipped kitchen connected to a rooftop terrace overlooking the Dublin Skyline and the mountains beyond. Guests, staff and visitors love getting together there to play some music, cook some international food and appreciate the sunset. In case of a rainy day, our TV and music room are always ready to be used! \r\nOur team is passionate about what they do and you’ll be able to feel and experience it – they will be ready to give you the best tips on what to do and see around, taking you out of the overcrowded zones if you wish to do so. In case you want to plan your trip in advance, you can find ultimate tips about Ireland on our Blog page! \r\n\r\nFree WiFi\r\nFree Breakfast\r\nCheck-out by 11 am\r\nCheck-in from 3 pm\r\nNo curfew\r\nFriendly staff\r\nHigh cleanliness standard scores\r\nRooftop overlooking beautiful Dublin\r\nFind out more about exploring Dublin and the rest of Ireland: take a look at our Blog page for the best tips and at our Tourdesk to book your adventures in advance!",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 1.53,
+        "units": "km"
+      },
+      "position": 5,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 25,
+        "rank2": 25,
+        "rank3": 24,
+        "rank4": 25,
+        "rank5": 24,
+        "rank6": 25,
+        "rank7": 24,
+        "rank8": 25,
+        "rank9": 24
+      },
+      "promotions": [
+        {
+          "id": 2045,
+          "type": "LOS",
+          "stack": false,
+          "name": "LENGTHOFSTAY",
+          "discount": 5
+        }
+      ],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "54.06",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "54.06",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "154.77",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 5,
+      "veryPopular": true,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/269339/91",
+          "suffix": ".JPG"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/269339/90",
+          "suffix": ".JPG"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/269339/izdodcxhalty6qgctzka",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/2/269339/108",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/269339/91.JPG"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/269339/90.JPG"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/269339/izdodcxhalty6qgctzka"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/2/269339/108.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Breakfast",
+              "id": "BREAKFASTINCLUDED"
+            },
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Elevator",
+              "id": "ELEVATOR"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Book Exchange",
+              "id": "BOOKEXCHANGE"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Self-Catering Facilities",
+              "id": "KITCHEN"
+            },
+            {
+              "name": "Dishwasher",
+              "id": "DISHWASHER"
+            },
+            {
+              "name": "Cooker",
+              "id": "COOKER"
+            },
+            {
+              "name": "Fridge/Freezer",
+              "id": "FRIDGEFREEZER"
+            },
+            {
+              "name": "Utensils",
+              "id": "UTENSILS"
+            },
+            {
+              "name": "Dryer",
+              "id": "DRYER"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Parking",
+              "id": "PARKING"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Microwave",
+              "id": "MICROWAVE"
+            },
+            {
+              "name": "Washing machine",
+              "id": "WASHINGMACHINE"
+            },
+            {
+              "name": "Follows Covid-19 sanitation guidance",
+              "id": "SANITISATIONBADGE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Late check-out",
+              "id": "LATECHECKOUT"
+            },
+            {
+              "name": "Reception (limited hours)",
+              "id": "RECEPTIONLIMITEDHOURS"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "DVD's",
+              "id": "DVDS"
+            },
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            },
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46742,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Harvey's Guesthouse",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 99,
+        "numberOfRatings": "191"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 2,
+        "security": 100,
+        "location": 100,
+        "staff": 100,
+        "fun": 100,
+        "clean": 100,
+        "facilities": 100,
+        "value": 90,
+        "average": 99
+      },
+      "latitude": 53.3573777,
+      "longitude": -6.2598896,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "11 Upper Gardiner Street",
+      "address2": "",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-23T00:00:00+00:00",
+      "district": {
+        "id": "385",
+        "name": "Croke Park"
+      },
+      "districts": [
+        {
+          "id": 385,
+          "name": "Croke Park"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "90.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "90.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "90.00",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "90.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Here at Harvey's Guesthouse we take great pride in offering a clean, comfortable and well-run guesthouse to visitors in Dublin.",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.73,
+        "units": "km"
+      },
+      "position": 3,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 22,
+        "rank2": 22,
+        "rank3": 22,
+        "rank4": 22,
+        "rank5": 22,
+        "rank6": 22,
+        "rank7": 22,
+        "rank8": 22,
+        "rank9": 22
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "90.00",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "90.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46742/8",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46742/1",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46742/2",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46742/3",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46742/8.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46742/1.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46742/2.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46742/3.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Parking",
+              "id": "FREEPARKING"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Cots available",
+              "id": "COTSAVAILABLE"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Telephone/Fax Facilities",
+              "id": "FAXSERVICE"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85837,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Temple Bar Inn",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 94,
+        "numberOfRatings": "17"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 1,
+        "security": 100,
+        "location": 100,
+        "staff": 100,
+        "fun": 100,
+        "clean": 100,
+        "facilities": 60,
+        "value": 100,
+        "average": 94
+      },
+      "latitude": 53.3456843,
+      "longitude": -6.2600653,
+      "isFeatured": false,
+      "type": "HOTEL",
+      "address1": "40-47 Fleet Street",
+      "address2": "Temple Bar",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-23T00:00:00+00:00",
+      "district": {
+        "id": "386",
+        "name": "Temple Bar"
+      },
+      "districts": [
+        {
+          "id": 386,
+          "name": "Temple Bar"
+        },
+        {
+          "id": 393,
+          "name": "Trinity College"
+        },
+        {
+          "id": 394,
+          "name": "Dublin Castle"
+        },
+        {
+          "id": 395,
+          "name": "Christ Church"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "89.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "89.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "122.33",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "122.33",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Located in the heart of Dublin city, the chic Temple Bar Inn is one of Dublin most centrally located hotels with everything one needs to enjoy a stay in Dublin!",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.57,
+        "units": "km"
+      },
+      "position": 5,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 24,
+        "rank2": 24,
+        "rank3": 21,
+        "rank4": 24,
+        "rank5": 21,
+        "rank6": 24,
+        "rank7": 21,
+        "rank8": 24,
+        "rank9": 21
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "122.33",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "122.33",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/8/85837/ta714z1zv7uqxa0qsyxf",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/8/85837/fkf1inzr5qzhujliybyx",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/8/85837/rfqbsppzovhiez39srhp",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/8/85837/wd3atlqwuza340yhxhxu",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/8/85837/ta714z1zv7uqxa0qsyxf"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/8/85837/fkf1inzr5qzhujliybyx"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/8/85837/rfqbsppzovhiez39srhp"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/8/85837/wd3atlqwuza340yhxhxu"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Wheelchair Friendly",
+              "id": "WHEELCHAIRACCESSIBLE"
+            },
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Elevator",
+              "id": "ELEVATOR"
+            },
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Book Exchange",
+              "id": "BOOKEXCHANGE"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Parking",
+              "id": "PARKING"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Servizi aggiornate",
+              "id": "SAFEDEPOSITBOX"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Airport Transfers",
+              "id": "AIRPORTTRANSFERS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "Postal Service",
+              "id": "POSTALSERVICE"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Business centre",
+              "id": "BUSINESSCENTRE"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            },
+            {
+              "name": "Minibar",
+              "id": "MINIBAR"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5575,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Egans House",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 0,
+        "numberOfRatings": "137"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 0,
+        "security": 0,
+        "location": 0,
+        "staff": 0,
+        "fun": 0,
+        "clean": 0,
+        "facilities": 0,
+        "value": 0,
+        "average": 0
+      },
+      "latitude": 53.3669952,
+      "longitude": -6.2665134,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "7-9 Iona Park",
+      "address2": "Glasnevin",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-24T00:00:00+00:00",
+      "district": null,
+      "districts": [],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "83.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "83.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "83.00",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "83.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Egans house is an elegant terrace of Edwardian houses situated in a quiet, residential area...",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 1.84,
+        "units": "km"
+      },
+      "position": 6,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 38,
+        "rank2": 38,
+        "rank3": 38,
+        "rank4": 38,
+        "rank5": 38,
+        "rank6": 38,
+        "rank7": 38,
+        "rank8": 38,
+        "rank9": 38
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "83.00",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "83.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/5575/rmiqzhrbvaic9g4scsey",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/5575/11",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/5575/8",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/5/5575/9",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/5575/rmiqzhrbvaic9g4scsey"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/5575/11.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/5575/8.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/5/5575/9.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Cots available",
+              "id": "COTSAVAILABLE"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Parking",
+              "id": "PARKING"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Servizi aggiornate",
+              "id": "SAFEDEPOSITBOX"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Telephone/Fax Facilities",
+              "id": "FAXSERVICE"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4896,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Dergvale Hotel",
+      "starRating": 2,
+      "overallRating": {
+        "overall": 100,
+        "numberOfRatings": "27"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 2,
+        "security": 100,
+        "location": 100,
+        "staff": 100,
+        "fun": 100,
+        "clean": 100,
+        "facilities": 100,
+        "value": 100,
+        "average": 100
+      },
+      "latitude": 53.356064,
+      "longitude": -6.260688,
+      "isFeatured": false,
+      "type": "HOTEL",
+      "address1": "4 Gardiner Place",
+      "address2": "Dublin 1",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-23T00:00:00+00:00",
+      "district": {
+        "id": "385",
+        "name": "Croke Park"
+      },
+      "districts": [
+        {
+          "id": 385,
+          "name": "Croke Park"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "79.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "79.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "92.33",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "92.33",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "The Dergvale Hotel is located close to all Dublin's premier attractions and has luxury bedrooms...",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.58,
+        "units": "km"
+      },
+      "position": 7,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 26,
+        "rank2": 26,
+        "rank3": 27,
+        "rank4": 26,
+        "rank5": 27,
+        "rank6": 26,
+        "rank7": 27,
+        "rank8": 26,
+        "rank9": 27
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "92.33",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "92.33",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/4896/13",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/4896/1",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/4896/11",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/4896/15",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/4896/13.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/4896/1.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/4896/11.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/4896/15.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Express check-in / out",
+              "id": "EXPRESSCHECKINOUT"
+            },
+            {
+              "name": "Wake-up calls",
+              "id": "WAKEUPCALLS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46794,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Celtic Lodge Guesthouse – Restaurant & Bar",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 95,
+        "numberOfRatings": "122"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 5,
+        "security": 100,
+        "location": 100,
+        "staff": 96,
+        "fun": 92,
+        "clean": 100,
+        "facilities": 88,
+        "value": 88,
+        "average": 95
+      },
+      "latitude": 53.3504921,
+      "longitude": -6.2552359,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "81-82 Talbot Street",
+      "address2": "",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-24T00:00:00+00:00",
+      "district": {
+        "id": "384",
+        "name": "3 Arena"
+      },
+      "districts": [
+        {
+          "id": 384,
+          "name": "3 Arena"
+        },
+        {
+          "id": 393,
+          "name": "Trinity College"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "261.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "261.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "261.00",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "261.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Celtic Lodge Guesthouse – Restaurant & Bar  is a city centre guest house with 29 superbly appointed bedrooms, each one equipped with every modern convenience to satisfy all our guests.",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.34,
+        "units": "km"
+      },
+      "position": 3,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 18,
+        "rank2": 18,
+        "rank3": 19,
+        "rank4": 18,
+        "rank5": 19,
+        "rank6": 18,
+        "rank7": 19,
+        "rank8": 18,
+        "rank9": 19
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "261.00",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "261.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46794/502",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46794/4",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46794/5",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/4/46794/7",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46794/502.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46794/4.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46794/5.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/4/46794/501.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Airport Transfer",
+              "id": "FREEAIRPORTTRANSFERS"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Cots available",
+              "id": "COTSAVAILABLE"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Airport Transfers",
+              "id": "AIRPORTTRANSFERS"
+            },
+            {
+              "name": "Bicycle Hire",
+              "id": "BICYCLEHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Telephone/Fax Facilities",
+              "id": "FAXSERVICE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Restaurant",
+              "id": "RESTAURANT"
+            },
+            {
+              "name": "Bar",
+              "id": "BAR"
+            },
+            {
+              "name": "Meals available",
+              "id": "MEALSAVAILABLE"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7293,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "O'Donoghue's Guesthouse",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 94,
+        "numberOfRatings": "49"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 1,
+        "security": 100,
+        "location": 100,
+        "staff": 100,
+        "fun": 100,
+        "clean": 100,
+        "facilities": 80,
+        "value": 80,
+        "average": 94
+      },
+      "latitude": 53.3382083,
+      "longitude": -6.2542292,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "15 Merrion Row",
+      "address2": "Dublin 2",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-25T00:00:00+00:00",
+      "district": {
+        "id": "392",
+        "name": "St Stephens Green"
+      },
+      "districts": [
+        {
+          "id": 392,
+          "name": "St Stephens Green"
+        },
+        {
+          "id": 393,
+          "name": "Trinity College"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "110.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "110.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "143.33",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "143.33",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "O'Donoghue's is a well known traditional Irish pub which offers 9 well furnished rooms in the city centre...",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 1.46,
+        "units": "km"
+      },
+      "position": 6,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 31,
+        "rank2": 31,
+        "rank3": 32,
+        "rank4": 31,
+        "rank5": 32,
+        "rank6": 31,
+        "rank7": 32,
+        "rank8": 31,
+        "rank9": 32
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "143.33",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "143.33",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/7/7293/4",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/7/7293/1",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/7/7293/2",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/7/7293/3",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/7/7293/4.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/7/7293/1.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/7/7293/10.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/7/7293/2.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "Telephone/Fax Facilities",
+              "id": "FAXSERVICE"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Bar",
+              "id": "BAR"
+            },
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6503,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Marguerite House",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 91,
+        "numberOfRatings": "241"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 1,
+        "security": 100,
+        "location": 60,
+        "staff": 100,
+        "fun": 100,
+        "clean": 100,
+        "facilities": 100,
+        "value": 80,
+        "average": 91
+      },
+      "latitude": 53.3686142,
+      "longitude": -6.2679352,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "22 Marguerite Rd",
+      "address2": "Glasnevin",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-25T00:00:00+00:00",
+      "district": {
+        "id": "385",
+        "name": "Croke Park"
+      },
+      "districts": [
+        {
+          "id": 385,
+          "name": "Croke Park"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "19.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "45.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "19.00",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "19.00",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "19.00",
+        "currency": "EUR"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "45.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Marguerite House is a recently refurbished red brick house and is owner managed. We are located in Glasnevin is famous for amongst others, its stunning Botanical Gardens.\r\n\r\nIt is nicely decorated with a welcoming atmosphere. On arrival you will be treated to Tea or Coffee and we be happy to help you in any way.\r\n\r\nThe Botanical Gardens and Croke Park (one of the biggest stadiums in Europe) are a short walk away. We are also close to Dublin City University and the Helix Theatre.\r\n\r\nThere are many pubs and restaurants situated near by.The Sunnybank Hotel and Bar with the Phraya Thai restaurant is just across the road. Also close are chinese, indian and italian restaurants.\r\n\r\nThe Mater and Bon Secours Hospitals are also located in the surrounding area.\r\n\r\nWe are located ten minutes from the City Centre and Temple Bar area by bus or car and about 15 minutes from Dublin Airport and Dublin Port Ferry Terminal.\r\n\r\nWe have en-suite rooms with cable TV.  Double/Twin/Triple or single rooms available.\r\n\r\nBreakfast is served between 8.30am and 10am approx. Full Irish, Vegetarian and Continential Breakfasts available.\r\n\r\nSmoking is not permitted in the property.\r\n\r\nMarguerite House is located on Marguerite Road which is just off Botanic Road, Glasnevin. A Bus stop is just 2 minutes away. All routes take you into the City Centre.Buses include No 4,13,19,19a and 83.  For more information, please contact us directly.\r\n\r\nLOCATED NEARBY:\r\nBotanical Gardens,\r\nCroke Park,\r\nDublin City University,\r\nSt. Patricks College\r\nHelix Theatre,\r\nCharleville Lawn Tennis Club,\r\nMater Hospital,\r\nBons Secours Hospital,\r\nThai,Chinese,Indian and Italian Restaurants,\r\nBars,\r\nGriffith Park,\r\nCinema's,",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 2.04,
+        "units": "km"
+      },
+      "position": 6,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 26,
+        "rank2": 24,
+        "rank3": 26,
+        "rank4": 28,
+        "rank5": 28,
+        "rank6": 29,
+        "rank7": 28,
+        "rank8": 28,
+        "rank9": 27
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "19.00",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "19.00",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "45.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/6/6503/9",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/6/6503/2",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/6/6503/3",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/6/6503/4",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/6/6503/9.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/6/6503/10.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/6/6503/11.jpg"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/6/6503/12.jpg"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Free Breakfast",
+              "id": "BREAKFASTINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Cots available",
+              "id": "COTSAVAILABLE"
+            },
+            {
+              "name": "Cable TV",
+              "id": "CABLETV"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 306066,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Donnybrook Hall",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 100,
+        "numberOfRatings": "1"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 1,
+        "security": 100,
+        "location": 100,
+        "staff": 100,
+        "fun": 100,
+        "clean": 100,
+        "facilities": 100,
+        "value": 100,
+        "average": 100
+      },
+      "latitude": 53.3215367,
+      "longitude": -6.2390113,
+      "isFeatured": false,
+      "type": "GUESTHOUSE",
+      "address1": "6 Belmont Ave",
+      "address2": "Ranelagh, Dublin 4",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-19T00:00:00+00:00",
+      "district": null,
+      "districts": [],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "65.00",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "65.00",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": null,
+      "lowestAveragePricePerNight": {
+        "value": "65.00",
+        "currency": "EUR"
+      },
+      "lowestAverageDormPricePerNight": null,
+      "lowestAveragePrivatePricePerNight": {
+        "value": "65.00",
+        "currency": "EUR"
+      },
+      "isNew": false,
+      "overview": "Donnybrook Hall beautiful Victorian Guest House",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 3.55,
+        "units": "km"
+      },
+      "position": 5,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 35,
+        "rank2": 35,
+        "rank3": 35,
+        "rank4": 35,
+        "rank5": 35,
+        "rank6": 35,
+        "rank7": 35,
+        "rank8": 35,
+        "rank9": 35
+      },
+      "promotions": [],
+      "rateRuleViolations": [],
+      "originalLowestAveragePricePerNight": {
+        "value": "65.00",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": null,
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "65.00",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 0,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/3/306066/t4wftu6yfu7dknqdzwx5",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/3/306066/bwymksrjrmcydbhr6l9l",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/3/306066/fucrax7avb2rb9nxzft0",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/3/306066/d0dsblkwruau8gr2uo76",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/3/306066/t4wftu6yfu7dknqdzwx5"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/3/306066/bwymksrjrmcydbhr6l9l"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/3/306066/fucrax7avb2rb9nxzft0"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/3/306066/d0dsblkwruau8gr2uo76"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Towels Included",
+              "id": "TOWELSINCLUDED"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Air Conditioning",
+              "id": "AIRCONDITIONING"
+            },
+            {
+              "name": "Fridge/Freezer",
+              "id": "FRIDGEFREEZER"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Ceiling Fan",
+              "id": "CEILINGFAN"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Microwave",
+              "id": "MICROWAVE"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            },
+            {
+              "name": "Reception (limited hours)",
+              "id": "RECEPTIONLIMITEDHOURS"
+            },
+            {
+              "name": "Wake-up calls",
+              "id": "WAKEUPCALLS"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Tea & Coffee Making Facilities",
+              "id": "TEACOFFEEMAKINGFACILITIES"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "isPromoted": false,
+      "hbid": 0,
+      "name": "Jacobs Inn",
+      "starRating": 0,
+      "overallRating": {
+        "overall": 60,
+        "numberOfRatings": "11320"
+      },
+      "ratingBreakdown": {
+        "ratingsCount": 2,
+        "security": 60,
+        "location": 60,
+        "staff": 60,
+        "fun": 60,
+        "clean": 60,
+        "facilities": 60,
+        "value": 60,
+        "average": 60
+      },
+      "latitude": 53.3507431,
+      "longitude": -6.2515382,
+      "isFeatured": false,
+      "type": "HOSTEL",
+      "address1": "21 Talbot Place",
+      "address2": "",
+      "freeCancellationAvailable": false,
+      "freeCancellationAvailableUntil": "2021-11-23T00:00:00+00:00",
+      "district": {
+        "id": "384",
+        "name": "3 Arena"
+      },
+      "districts": [
+        {
+          "id": 384,
+          "name": "3 Arena"
+        },
+        {
+          "id": 393,
+          "name": "Trinity College"
+        }
+      ],
+      "freeCancellation": {
+        "label": "Free Cancellation rates",
+        "description": "If you cancel your booking before 23:59 ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) your deposit will be refunded to your payment card. If you cancel after ##FREECANCELLATIONBEFOREDATE## (##FREECANCELLATIONUNTILTZABBR##) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+      },
+      "lowestPricePerNight": {
+        "value": "20.66",
+        "currency": "EUR"
+      },
+      "lowestPrivatePricePerNight": {
+        "value": "78.78",
+        "currency": "EUR"
+      },
+      "lowestDormPricePerNight": {
+        "value": "20.66",
+        "currency": "EUR"
+      },
+      "lowestAveragePricePerNight": {
+        "value": "31.88",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            28856
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "35.42"
+      },
+      "lowestAverageDormPricePerNight": {
+        "value": "31.88",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            28856
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "35.42"
+      },
+      "lowestAveragePrivatePricePerNight": {
+        "value": "110.41",
+        "currency": "EUR",
+        "promotions": {
+          "promotionsIds": [
+            28856
+          ],
+          "totalDiscount": "10.00"
+        },
+        "original": "122.68"
+      },
+      "isNew": false,
+      "overview": "What do you need to know about Jacobs Inn? We were recently ranked in the top 10 Irish hostels here on Hostelworld!\r\n\r\nWant to know what the Lonely Planet Guide says about us? \r\n'This clean and modern hostel offers spacious accommodation with PRIVATE bathrooms and outstanding facilities...' - Lonely Planet Dublin City Guide\r\n\r\nSo why choose us? Jacobs Inn is a funky, comfortable hostel with a wide range of accommodation options for the individual backpacker, families and groups of all sizes. All of our guests can enjoy ensuite showers and toilets and cool bar and restaurant.\r\n\r\nYou can avail of accommodation in twin or double rooms or stay in our sigature POD beds. The pod beds designed by CoDE Hostels give you all the privacy you need in a shared dorm without losing the option to socialize with your rooms mates. The dorm rooms are among the largest and most spacious in Dublin.  Our dorms, range from four pods to twelve. All pods have underbed lockers and are coded with your own personal four-digit code - no padlocks required!\r\n\r\nBefore your busy day, enjoy our new bottomless porridge breakfast.  It is tasty, vegan, gluten-friendly and a great way to start your day.  For €6 you get as much porridge as you can eat, with premium toppings such as chia seeds, hazelnuts, dates, cranberries, pumpkin and sunflower seeds, raisins, coconut flakes and more.  All this is paired with fresh orange juice and hot coffee - bottomless as well!  If you're craving something more, we have a fantastic menu at our restaurant where you can grab a latte or a bacon roll for sit-in or take-away.  Get your day started off right!\r\n\r\nIn our bar and restaurant we offer food and drinks during your stay, a great place to fuel up for your adventures around Dublin!\r\n\r\nWouldn't you like to stay in the best city centre location? Of course you would...well, Jacobs Inn couldn't have a better location to explore the city. Outside is the direct bus from Dublin Airport - take the 747 bus and get here from the airport in only 25 minutes! We're also opposite Busaras, the central bus station. It's only 50m from here to Connolly train station and 20m to the LUAS, while O'Connell St is just 500m away. It's an easy walk to the O2 and Croke Park and only three DART stops to the Aviva Stadium. All tourist attractions, restaurants, bars and shops (including Trinity College and Temple Bar) are but a short stroll away.\r\n\r\nYou can chat with our friendly staff and get their advice on how best to enjoy our beautiful city. They can even sell you tickets for the best tours!\r\n\r\n**** Please note that families travelling with children under the age of 16 are required to book private rooms. *****\r\n\r\n- Groups of 8 or more persons will need to pay a damage deposit and sign our Code of Conduct on arrival. These groups must also pay a non-refundable deposit of 20% of the stay and pay the remaining balance 4 weeks prior to arrival. No refund will be given for group reservations cancelled within 4 weeks prior arrival..\r\n\r\n- We have security cameras in the public areas..",
+      "isElevate": false,
+      "hostelworldRecommends": false,
+      "distance": {
+        "value": 0.58,
+        "units": "km"
+      },
+      "position": 2,
+      "hwExtra": null,
+      "fabSort": {
+        "rank1": 1,
+        "rank2": 1,
+        "rank3": 1,
+        "rank4": 1,
+        "rank5": 1,
+        "rank6": 1,
+        "rank7": 1,
+        "rank8": 1,
+        "rank9": 1
+      },
+      "promotions": [
+        {
+          "id": 28856,
+          "type": "APPS",
+          "stack": true,
+          "name": "APPSPROMOTION",
+          "discount": 10
+        }
+      ],
+      "rateRuleViolations": [
+        {
+          "NightsStay": {
+            "Min": 4
+          }
+        }
+      ],
+      "stayRuleViolations": [
+        {
+          "description": "You'll have to stay more nights here"
+        }
+      ],
+      "originalLowestAveragePricePerNight": {
+        "value": "35.42",
+        "currency": "EUR"
+      },
+      "originalLowestAverageDormPricePerNight": {
+        "value": "35.42",
+        "currency": "EUR"
+      },
+      "originalLowestAveragePrivatePricePerNight": {
+        "value": "122.68",
+        "currency": "EUR"
+      },
+      "fenceDiscount": 10,
+      "veryPopular": false,
+      "images": [
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/110/dd39ptdas7mc2ubqbmum",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/110/ow1b2q0nelg2pwancypf",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/110/i0inp690hopbmcuodvbx",
+          "suffix": ".jpg"
+        },
+        {
+          "prefix": "cloudinary-test.staging.hostelworld.com/propertyimages/1/110/undaubu70kbpv0mls0ks",
+          "suffix": ".jpg"
+        }
+      ],
+      "imagesGallery": [
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/110/dd39ptdas7mc2ubqbmum"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/110/ow1b2q0nelg2pwancypf"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/110/i0inp690hopbmcuodvbx"
+        },
+        {
+          "prefix": "res.cloudinary.com/test-hostelworld-com/image/upload/f_auto,q_auto",
+          "suffix": "/v1/propertyimages/1/110/undaubu70kbpv0mls0ks"
+        }
+      ],
+      "facilities": [
+        {
+          "name": "Free",
+          "id": "FACILITYCATEGORYFREE",
+          "facilities": [
+            {
+              "name": "Linen Included",
+              "id": "LINENINCLUDED"
+            },
+            {
+              "name": "Free City Maps",
+              "id": "FREECITYMAPS"
+            },
+            {
+              "name": "Free WiFi",
+              "id": "FREEWIFI"
+            },
+            {
+              "name": "Free Internet Access",
+              "id": "FREEINTERNETACCESS"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "id": "FACILITYCATEGORYGENERAL",
+          "facilities": [
+            {
+              "name": "Wheelchair Friendly",
+              "id": "WHEELCHAIRACCESSIBLE"
+            },
+            {
+              "name": "Security Lockers",
+              "id": "LOCKERS"
+            },
+            {
+              "name": "Key Card Access",
+              "id": "KEYCARDACCESS"
+            },
+            {
+              "name": "Common Room",
+              "id": "COMMONROOM"
+            },
+            {
+              "name": "Elevator",
+              "id": "ELEVATOR"
+            },
+            {
+              "name": "Bicycle Parking",
+              "id": "BICYCLEPARKING"
+            },
+            {
+              "name": "Breakfast Not Included",
+              "id": "BREAKFASTNOTINCLUDED"
+            },
+            {
+              "name": "Adaptors",
+              "id": "ADAPTORS"
+            },
+            {
+              "name": "Hot Showers",
+              "id": "HOTSHOWERS"
+            },
+            {
+              "name": "Outdoor Terrace",
+              "id": "OUTDOORTERRACE"
+            },
+            {
+              "name": "Reading Light",
+              "id": "READINGLIGHT"
+            },
+            {
+              "name": "Hair Dryers For Hire",
+              "id": "HAIRDRYERSFORHIRE"
+            },
+            {
+              "name": "Hair Dryers",
+              "id": "HAIRDRYERS"
+            },
+            {
+              "name": "Ceiling Fan",
+              "id": "CEILINGFAN"
+            },
+            {
+              "name": "Iron/Ironing Board",
+              "id": "IRONIRONINGBOARD"
+            },
+            {
+              "name": "Washing machine",
+              "id": "WASHINGMACHINE"
+            },
+            {
+              "name": "Towels Not Included",
+              "id": "TOWELSNOTINCLUDED"
+            }
+          ]
+        },
+        {
+          "name": "Services",
+          "id": "FACILITYCATEGORYSERVICES",
+          "facilities": [
+            {
+              "name": "Internet Access",
+              "id": "INTERNETACCESS"
+            },
+            {
+              "name": "Laundry Facilities",
+              "id": "LAUNDRYFACILITIES"
+            },
+            {
+              "name": "Airport Transfers",
+              "id": "AIRPORTTRANSFERS"
+            },
+            {
+              "name": "Towels for hire",
+              "id": "TOWELSFORHIRE"
+            },
+            {
+              "name": "Luggage Storage",
+              "id": "LUGGAGESTORAGE"
+            },
+            {
+              "name": "24 Hour Reception",
+              "id": "24HOURRECEPTION"
+            },
+            {
+              "name": "Tours/Travel Desk",
+              "id": "TOURSTRAVELDESK"
+            },
+            {
+              "name": "Shuttle Bus",
+              "id": "SHUTTLEBUS"
+            },
+            {
+              "name": "Postal Service",
+              "id": "POSTALSERVICE"
+            },
+            {
+              "name": "24 Hour Security",
+              "id": "24HOURSECURITY"
+            },
+            {
+              "name": "Housekeeping",
+              "id": "HOUSEKEEPING"
+            }
+          ]
+        },
+        {
+          "name": "Food & Drink",
+          "id": "FACILITYCATEGORYFOODANDDRINK",
+          "facilities": [
+            {
+              "name": "Restaurant",
+              "id": "RESTAURANT"
+            },
+            {
+              "name": "Bar",
+              "id": "BAR"
+            },
+            {
+              "name": "Meals available",
+              "id": "MEALSAVAILABLE"
+            },
+            {
+              "name": "Vending Machines",
+              "id": "VENDINGMACHINES"
+            },
+            {
+              "name": "Cafe",
+              "id": "CAFE"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "id": "FACILITYCATEGORYENTERTAINMENT",
+          "facilities": [
+            {
+              "name": "Board games",
+              "id": "BOARDGAMES"
+            },
+            {
+              "name": "Wi-Fi",
+              "id": "WIFI"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location": {
+    "city": {
+      "id": 5,
+      "name": "Dublin",
+      "idCountry": 103,
+      "country": "Ireland"
+    },
+    "region": null
+  },
+  "locationEn": {
+    "city": {
+      "id": 5,
+      "name": "Dublin",
+      "idCountry": 103,
+      "country": "Ireland"
+    },
+    "region": null
+  },
+  "filterData": {
+    "highestPricePerNight": {
+      "value": "999.00",
+      "currency": "EUR"
+    },
+    "lowestPricePerNight": {
+      "value": "14.18",
+      "currency": "EUR"
+    }
+  },
+  "sortOrder": null,
+  "pagination": {
+    "next": "",
+    "prev": "",
+    "numberOfPages": 1,
+    "totalNumberOfItems": 20
+  }
+}
