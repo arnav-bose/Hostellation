@@ -34,6 +34,17 @@ android {
 
 dependencies {
 
+    // Serialization
+    implementation(libs.gson)
+
+    // Network
+    implementation(libs.retrofit)
+
+    // Projects
+    implementation(projects.core.data)
+    implementation(projects.core.domain)
+    implementation(projects.home.domain)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
