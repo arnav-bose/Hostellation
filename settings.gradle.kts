@@ -19,6 +19,13 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "Hostellation"
 include(":app")
- 
+include(":home:presentation")
+include(":home:domain")
+include(":home:data")
+include(":core:domain")
+include(":core:data")
+include(":core:presentation:design")
+include(":core:presentation:ui")
