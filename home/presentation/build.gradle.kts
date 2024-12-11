@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.jetbrainsKotlinKsp)
+    alias(libs.plugins.hiltPlugin)
 }
 
 android {
@@ -58,8 +60,19 @@ dependencies {
 
     // Image Loading
     implementation(libs.coil.compose)
+//    implementation("io.coil-kt.coil3:coil-compose:3.0.4")
+    implementation(libs.coil.network.okhttp)
 
-//    implementation(libs.androidx.core.ktx)
+    // ViewModel Compose
+    implementation (libs.androidx.lifecycle.viewmodel.compose)
+
+    // Dagger-Hilt
+    implementation (libs.hilt.android)
+    
+    implementation (libs.androidx.hilt.navigation.compose)
+    ksp(libs.dagger.compiler)
+    ksp(libs.hilt.compiler)
+
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.junit)

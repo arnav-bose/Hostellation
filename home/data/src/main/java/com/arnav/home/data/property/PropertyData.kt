@@ -22,7 +22,7 @@ data class PropertyData(
     override fun convertToDomainData(): PropertyCardModel {
         return PropertyCardModel(
             id = id.toString(),
-            imageList = imageList?.map { it.prefix + it.suffix } ?: emptyList(),
+            imageList = imageList?.map { "https://" + it.prefix + it.suffix } ?: emptyList(),
             name = propertyName ?: "",
             rating = rating?.rating.toString(),
             distance = distance?.value?.toString() + " " + distance?.units,

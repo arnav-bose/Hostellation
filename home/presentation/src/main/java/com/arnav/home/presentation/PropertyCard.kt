@@ -1,18 +1,22 @@
 package com.arnav.home.presentation
 
+import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
@@ -24,31 +28,43 @@ import com.arnav.home.domain.property.PropertyCardModel
 @Composable
 fun PropertyCard(data: PropertyCardModel, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
-        ImageCarousel(imageList = data.imageList, modifier = Modifier
-            .fillMaxWidth()
-            .height(200.dp)
-            .padding(8.dp)
-            .background(Color.DarkGray, RoundedCornerShape(10.dp))
+        ImageCarousel(
+            imageList = data.imageList, modifier = Modifier
+                .fillMaxWidth()
+                .height(200.dp)
+                .padding(8.dp)
+                .clip(RoundedCornerShape(10.dp))
         )
         Row(modifier = Modifier.padding(start = 8.dp, end = 8.dp)) {
             Column(modifier.weight(1f)) {
-                Text(data.name, fontWeight = FontWeight.Bold, fontSize = TextUnit(18f, TextUnitType.Sp))
+                Text(
+                    data.name,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = TextUnit(18f, TextUnitType.Sp)
+                )
                 Text(data.address, fontSize = TextUnit(12f, TextUnitType.Sp))
-                Text(data.description, fontSize = TextUnit(12f, TextUnitType.Sp), color = Color.Gray)
+                Text(
+                    data.description,
+                    fontSize = TextUnit(12f, TextUnitType.Sp),
+                    color = Color.Gray
+                )
             }
 
-            Box(modifier = Modifier
-                .background(Color.Green, RoundedCornerShape(4.dp))
-                .padding(2.dp)) {
-                    Text(data.rating, modifier = Modifier.padding(start = 8.dp, end = 8.dp))
-                }
+            Box(
+                modifier = Modifier
+                    .background(Color.Green, RoundedCornerShape(4.dp))
+                    .padding(2.dp)
+            ) {
+                Text(data.rating, modifier = Modifier.padding(start = 8.dp, end = 8.dp))
+            }
         }
 
-        Box(modifier = Modifier
-            .fillMaxWidth()
-            .padding(start = 8.dp, end = 8.dp, top = 12.dp)
-            .height(1.dp)
-            .background(Color.Gray)
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(start = 8.dp, end = 8.dp, top = 12.dp)
+                .height(1.dp)
+                .background(Color.Gray)
         )
 
         Row(modifier = Modifier.padding(top = 12.dp, start = 8.dp, end = 8.dp, bottom = 12.dp)) {
@@ -69,8 +85,13 @@ fun PropertyCard(data: PropertyCardModel, modifier: Modifier = Modifier) {
 private fun ImageCarousel(imageList: List<String>, modifier: Modifier) {
     imageList.getOrNull(0)?.let {
         AsyncImage(
-            it, null, modifier = modifier
+            it,
+            null,
+            modifier = modifier,
+            contentScale = ContentScale.Crop,
+            clipToBounds = true
         )
+
     }
 }
 

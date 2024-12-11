@@ -8,8 +8,9 @@ import com.arnav.home.data.APIEndpoints
 import com.arnav.home.data.HomeServices
 import com.arnav.home.domain.property.HomeRepository
 import com.arnav.home.domain.property.PropertyDetails
+import javax.inject.Inject
 
-class HomeRepositoryImpl(
+class HomeRepositoryImpl @Inject constructor(
     private val homeServices: HomeServices
 ) : HomeRepository {
 

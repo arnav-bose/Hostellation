@@ -1,13 +1,14 @@
 package com.arnav.hostellation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
-import com.arnav.home.presentation.HomeScreen
+import com.arnav.home.presentation.HomeScreenRoot
+import com.arnav.home.presentation.HomeViewModel
 
 @Composable
 fun NavigationRoot(navHostController: NavHostController) {
@@ -22,7 +23,8 @@ fun NavigationRoot(navHostController: NavHostController) {
 fun NavGraphBuilder.homeGraph(navHostController: NavHostController) {
     navigation<Routes.Home>(startDestination = Routes.HomeListing(100)) {
         composable<Routes.HomeListing> {
-            HomeScreen(modifier = Modifier)
+            val viewModel = hiltViewModel<HomeViewModel>()
+            HomeScreenRoot(viewModel)
         }
     }
 }
