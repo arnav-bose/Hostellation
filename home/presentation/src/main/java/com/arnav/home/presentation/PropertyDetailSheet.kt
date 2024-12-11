@@ -8,14 +8,11 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PageSize
-import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -23,19 +20,19 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.dp
-import coil3.compose.AsyncImage
+import com.arnav.core.presentation.ui.ImageCarousel
+import com.arnav.core.presentation.ui.RatingSnippet
 import com.arnav.home.domain.property.PropertyCardModel
 import com.arnav.home.domain.property.currency.CurrencyRateMap
 import java.util.Locale
@@ -58,27 +55,15 @@ fun PropertyDetailSheet(
     Column(modifier = modifier) {
 
         // Image Carousel
-        val pagerState = rememberPagerState { data.imageList.size }
-        HorizontalPager(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(250.dp),
-            state = pagerState,
+        ImageCarousel(
+            imageURLList = data.imageList,
             pageSize = threePagesPerViewport,
             pageSpacing = 8.dp,
-            contentPadding = PaddingValues(start = 12.dp, end = 12.dp)
-        ) { index ->
-            val imageURL = data.imageList[index]
-            AsyncImage(
-                model = imageURL,
-                contentDescription = null,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .fillMaxHeight()
-                    .clip(RoundedCornerShape(8.dp)),
-                contentScale = ContentScale.Crop
-            )
-        }
+            contentPadding = PaddingValues(start = 12.dp, end = 12.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(250.dp)
+        )
 
         // Details
         Row(modifier = Modifier.padding(start = 12.dp, end = 12.dp, top = 12.dp)) {
@@ -94,7 +79,9 @@ fun PropertyDetailSheet(
                 )
                 if (data.description.isNotBlank()) Text(
                     data.description,
-                    fontSize = TextUnit(12f, TextUnitType.Sp)
+                    fontSize = TextUnit(12f, TextUnitType.Sp),
+                    maxLines = 10,
+                    overflow = TextOverflow.Ellipsis
                 )
                 if (data.distance.isNotBlank()) Text(
                     data.distance + " " + stringResource(R.string.from_city_center),
@@ -104,13 +91,7 @@ fun PropertyDetailSheet(
                 )
             }
 
-            Box(
-                modifier = Modifier
-                    .background(Color.Green, RoundedCornerShape(4.dp))
-                    .padding(2.dp)
-            ) {
-                Text(data.rating, modifier = Modifier.padding(start = 8.dp, end = 8.dp))
-            }
+            RatingSnippet(data.rating.toInt())
         }
 
         Box(
@@ -124,10 +105,7 @@ fun PropertyDetailSheet(
         // Pricing
         PropertyDetailPriceSection(
             data,
-            rates,
-            Modifier
-                .fillMaxWidth()
-                .padding(start = 12.dp, end = 12.dp)
+            rates
         )
     }
 }
@@ -135,8 +113,7 @@ fun PropertyDetailSheet(
 @Composable
 fun PropertyDetailPriceSection(
     data: PropertyCardModel,
-    currencyRateMap: CurrencyRateMap,
-    modifier: Modifier = Modifier,
+    currencyRateMap: CurrencyRateMap
 ) {
     val selectedCurrency = remember { mutableStateOf("EUR") }
     Text(
@@ -147,46 +124,50 @@ fun PropertyDetailPriceSection(
     )
     Row(modifier = Modifier.padding(start = 12.dp, end = 12.dp, top = 8.dp, bottom = 24.dp)) {
         Column(modifier = Modifier.weight(1f)) {
-            Row {
-                Image(
-                    painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_room),
-                    null,
-                    modifier = Modifier
-                        .padding(end = 4.dp)
-                        .align(Alignment.CenterVertically),
-                    colorFilter = ColorFilter.tint(Color.Gray)
-                )
+            if (data.lowestPrivatePrice > 0) {
+                Row {
+                    Image(
+                        painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_room),
+                        null,
+                        modifier = Modifier
+                            .padding(end = 4.dp)
+                            .align(Alignment.CenterVertically),
+                        colorFilter = ColorFilter.tint(Color.Gray)
+                    )
 
-                Text(
-                    convertPrice(
-                        data.lowestPrivatePrice,
-                        currencyRateMap.ratesMap[selectedCurrency.value] ?: 1f
-                    ) +
-                            " " +
-                            selectedCurrency.value,
-                    modifier = Modifier.align(Alignment.CenterVertically)
-                )
+                    Text(
+                        convertPrice(
+                            data.lowestPrivatePrice,
+                            currencyRateMap.ratesMap[selectedCurrency.value] ?: 1f
+                        ) +
+                                " " +
+                                selectedCurrency.value,
+                        modifier = Modifier.align(Alignment.CenterVertically)
+                    )
+                }
             }
 
-            Row {
-                Image(
-                    painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_dorm),
-                    null,
-                    colorFilter = ColorFilter.tint(Color.Gray),
-                    modifier = Modifier
-                        .padding(end = 4.dp)
-                        .align(Alignment.CenterVertically)
-                )
+            if (data.lowestDormPrice > 0){
+                Row {
+                    Image(
+                        painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_dorm),
+                        null,
+                        colorFilter = ColorFilter.tint(Color.Gray),
+                        modifier = Modifier
+                            .padding(end = 4.dp)
+                            .align(Alignment.CenterVertically)
+                    )
 
-                Text(
-                    convertPrice(
-                        data.lowestDormPrice,
-                        currencyRateMap.ratesMap[selectedCurrency.value] ?: 1f
-                    ) +
-                            " " +
-                            selectedCurrency.value,
-                    modifier = Modifier.align(Alignment.CenterVertically)
-                )
+                    Text(
+                        convertPrice(
+                            data.lowestDormPrice,
+                            currencyRateMap.ratesMap[selectedCurrency.value] ?: 1f
+                        ) +
+                                " " +
+                                selectedCurrency.value,
+                        modifier = Modifier.align(Alignment.CenterVertically)
+                    )
+                }
             }
         }
 
@@ -257,7 +238,9 @@ private fun PropertyDetailPreview() {
             description = "We're a stone's throw from Temple Bar, Connell Bridge, Trinity College, Dublin Castle and much, much more!",
             address = "29 Bachelors Walk, Dublin",
             latitude = 1.0,
-            longitude = 20.0
+            isFeatured = true,
+            longitude = 20.0,
+            currency = "EUR"
         ),
         CurrencyRateMap(
             hashMapOf(

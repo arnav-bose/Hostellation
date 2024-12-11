@@ -24,7 +24,7 @@ import com.arnav.home.domain.property.currency.CurrencyRateMap
 fun HomeScreenRoot(
     viewModel: HomeViewModel
 ) {
-    HomeScreen(viewModel = viewModel, modifier = Modifier.background(Color.Gray))
+    HomeScreen(viewModel = viewModel, modifier = Modifier.background(Color.LightGray))
 }
 
 @OptIn(ExperimentalMaterial3Api::class)

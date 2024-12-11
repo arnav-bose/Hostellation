@@ -8,11 +8,13 @@ data class PropertyCardModel(
     val name: String,
     val rating: String,
     val distance: String,
-    // Facilities
+    val isFeatured: Boolean,
+    // TODO: Facilities
     val lowestPrivatePrice: Float,
-    val lowestPrivatePricePerNight: String,
+    val lowestPrivatePricePerNight: String?,
     val lowestDormPrice: Float,
-    val lowestDormPricePerNight: String,
+    val lowestDormPricePerNight: String?,
+    val currency: String,
     val description: String,
     val address: String,
     val latitude: Double,

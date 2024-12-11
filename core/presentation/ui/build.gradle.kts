@@ -48,6 +48,10 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     debugImplementation(libs.androidx.ui.tooling)
 
+    // Image Loading
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
+
     implementation(projects.core.domain)
     implementation(projects.core.presentation.design)
     implementation(libs.androidx.core.ktx)

@@ -2,4 +2,5 @@
 <resources>
     <string name="from_city_center">from city center</string>
     <string name="pricing">Pricing</string>
+    <string name="featured">Featured</string>
 </resources>
