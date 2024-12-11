@@ -36,7 +36,7 @@ fun HomeScreen(modifier: Modifier = Modifier, viewModel: HomeViewModel? = null) 
     val propertyListState = viewModel.propertyList.collectAsStateWithLifecycle()
     val overlayState = viewModel.overlayStateFlow.collectAsStateWithLifecycle()
     val selectedPropertyModel = viewModel.selectedPropertyModel.collectAsStateWithLifecycle()
-    val sheetState = rememberModalBottomSheetState()
+    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
 
     LazyColumn(
         modifier = modifier

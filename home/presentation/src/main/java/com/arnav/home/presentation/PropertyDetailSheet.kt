@@ -2,6 +2,8 @@ package com.arnav.home.presentation
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -10,13 +12,14 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PageSize
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -63,7 +66,7 @@ fun PropertyDetailSheet(
             state = pagerState,
             pageSize = threePagesPerViewport,
             pageSpacing = 8.dp,
-            contentPadding = PaddingValues(start = 8.dp, end = 8.dp)
+            contentPadding = PaddingValues(start = 12.dp, end = 12.dp)
         ) { index ->
             val imageURL = data.imageList[index]
             AsyncImage(
@@ -78,7 +81,7 @@ fun PropertyDetailSheet(
         }
 
         // Details
-        Row(modifier = Modifier.padding(start = 8.dp, end = 8.dp, top = 12.dp)) {
+        Row(modifier = Modifier.padding(start = 12.dp, end = 12.dp, top = 12.dp)) {
             Column(modifier.weight(1f)) {
                 Text(
                     data.name,
@@ -124,7 +127,7 @@ fun PropertyDetailSheet(
             rates,
             Modifier
                 .fillMaxWidth()
-                .padding(start = 8.dp, end = 8.dp)
+                .padding(start = 12.dp, end = 12.dp)
         )
     }
 }
@@ -135,103 +138,96 @@ fun PropertyDetailPriceSection(
     currencyRateMap: CurrencyRateMap,
     modifier: Modifier = Modifier,
 ) {
-    val selectedCurrency = remember { "GBP" }
+    val selectedCurrency = remember { mutableStateOf("EUR") }
     Text(
         stringResource(R.string.pricing),
-        modifier = Modifier.padding(start = 8.dp, top = 8.dp),
+        modifier = Modifier.padding(start = 12.dp, top = 8.dp),
         fontSize = TextUnit(16f, TextUnitType.Sp),
         fontWeight = FontWeight.Bold
     )
-    Column {
-        Row {
-            Image(
-                painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_room),
-                null,
-                modifier = Modifier
-                    .padding(end = 4.dp)
-                    .align(Alignment.CenterVertically),
-                colorFilter = ColorFilter.tint(Color.Gray)
-            )
+    Row(modifier = Modifier.padding(start = 12.dp, end = 12.dp, top = 8.dp, bottom = 24.dp)) {
+        Column(modifier = Modifier.weight(1f)) {
+            Row {
+                Image(
+                    painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_room),
+                    null,
+                    modifier = Modifier
+                        .padding(end = 4.dp)
+                        .align(Alignment.CenterVertically),
+                    colorFilter = ColorFilter.tint(Color.Gray)
+                )
 
-            Text(
-                convertPrice(
-                    data.lowestPrivatePrice,
-                    currencyRateMap.ratesMap[selectedCurrency] ?: 1f
-                ) +
-                        " " +
-                        selectedCurrency,
-                modifier = Modifier.align(Alignment.CenterVertically)
-            )
+                Text(
+                    convertPrice(
+                        data.lowestPrivatePrice,
+                        currencyRateMap.ratesMap[selectedCurrency.value] ?: 1f
+                    ) +
+                            " " +
+                            selectedCurrency.value,
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
+            }
+
+            Row {
+                Image(
+                    painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_dorm),
+                    null,
+                    colorFilter = ColorFilter.tint(Color.Gray),
+                    modifier = Modifier
+                        .padding(end = 4.dp)
+                        .align(Alignment.CenterVertically)
+                )
+
+                Text(
+                    convertPrice(
+                        data.lowestDormPrice,
+                        currencyRateMap.ratesMap[selectedCurrency.value] ?: 1f
+                    ) +
+                            " " +
+                            selectedCurrency.value,
+                    modifier = Modifier.align(Alignment.CenterVertically)
+                )
+            }
         }
 
-        Row {
-            Image(
-                painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_dorm),
-                null,
-                colorFilter = ColorFilter.tint(Color.Gray),
-                modifier = Modifier
-                    .padding(end = 4.dp)
-                    .align(Alignment.CenterVertically)
-            )
-
-            Text(
-                convertPrice(
-                    data.lowestDormPrice,
-                    currencyRateMap.ratesMap[selectedCurrency] ?: 1f
-                ) +
-                        " " +
-                        selectedCurrency,
-                modifier = Modifier.align(Alignment.CenterVertically)
-            )
+        // Currency Change
+        Row(modifier = Modifier.align(Alignment.CenterVertically)) {
+            repeat(3) { index ->
+                val text = when (index) {
+                    0 -> "EUR"
+                    1 -> "GBP"
+                    else -> "USD"
+                }
+                val shape = when (index) {
+                    0 -> RoundedCornerShape(topStart = 8.dp, bottomStart = 8.dp)
+                    1 -> RoundedCornerShape(topStart = 0.dp, bottomStart = 0.dp)
+                    else -> RoundedCornerShape(topEnd = 8.dp, bottomEnd = 8.dp)
+                }
+                val backgroundColor = if (selectedCurrency.value == text) Color.LightGray else Color.White
+                Box(
+                    modifier = Modifier
+                        .size(38.dp)
+                        .background(
+                            backgroundColor,
+                            shape
+                        )
+                        .border(
+                            1.dp,
+                            Color.LightGray,
+                            shape
+                        )
+                        .clickable {
+                            selectedCurrency.value = text
+                        }
+                ) {
+                    Text(
+                        text,
+                        modifier = Modifier.align(Alignment.Center)
+                    )
+                }
+            }
         }
     }
-  /*  Row(modifier = modifier) {
-        Image(
-            painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_room),
-            null,
-            modifier = Modifier
-                .padding(end = 4.dp)
-                .align(Alignment.CenterVertically),
-            colorFilter = ColorFilter.tint(Color.Gray)
-        )
-
-        Text(
-            convertPrice(
-                data.lowestPrivatePrice,
-                currencyRateMap.ratesMap[selectedCurrency] ?: 1f
-            ) +
-                    " " +
-                    selectedCurrency,
-            modifier = Modifier.align(Alignment.CenterVertically)
-        )
-
-        Box(
-            modifier = Modifier
-                .padding(start = 12.dp, end = 12.dp)
-                .width(1.dp)
-                .height(30.dp)
-                .background(Color.LightGray)
-        )
-
-        Image(
-            painter = painterResource(com.arnav.core.presentation.ui.R.drawable.ic_dorm),
-            null,
-            colorFilter = ColorFilter.tint(Color.Gray),
-            modifier = Modifier
-                .padding(end = 4.dp)
-                .align(Alignment.CenterVertically)
-        )
-
-        Text(
-            convertPrice(
-                data.lowestDormPrice,
-                currencyRateMap.ratesMap[selectedCurrency] ?: 1f
-            ) +
-                    " " +
-                    selectedCurrency,
-            modifier = Modifier.align(Alignment.CenterVertically)
-        )
-    }*/
 }
 
 private fun convertPrice(euroPrice: Float, exchangeRate: Float): String {
