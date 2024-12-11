@@ -9,7 +9,9 @@ data class PropertyCardModel(
     val rating: String,
     val distance: String,
     // Facilities
+    val lowestPrivatePrice: Float,
     val lowestPrivatePricePerNight: String,
+    val lowestDormPrice: Float,
     val lowestDormPricePerNight: String,
     val description: String,
     val address: String,

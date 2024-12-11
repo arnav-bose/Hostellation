@@ -26,7 +26,9 @@ data class PropertyData(
             name = propertyName ?: "",
             rating = rating?.rating.toString(),
             distance = distance?.value?.toString() + " " + distance?.units,
+            lowestPrivatePrice = lowestPrivatePrice?.value?.toFloat() ?: 0f,
             lowestDormPricePerNight = (lowestDormPrice?.value + lowestDormPrice?.currency) ?: "",
+            lowestDormPrice = lowestDormPrice?.value?.toFloat() ?: 0f,
             lowestPrivatePricePerNight = (lowestPrivatePrice?.value + lowestPrivatePrice?.currency)
                 ?: "",
             description = propertyDescription ?: "",

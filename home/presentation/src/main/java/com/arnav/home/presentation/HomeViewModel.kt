@@ -1,12 +1,12 @@
 package com.arnav.home.presentation
 
-import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.arnav.core.domain.Result
 import com.arnav.core.domain.ScreenOverlayData
 import com.arnav.home.domain.property.HomeRepository
 import com.arnav.home.domain.property.PropertyCardModel
+import com.arnav.home.domain.property.currency.CurrencyRateMap
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -28,6 +28,7 @@ class HomeViewModel @Inject constructor(
         .onStart {
             viewModelScope.launch(Dispatchers.IO) {
                 getPropertyList()
+                getCurrencyRates()
             }
         }
         .stateIn(
@@ -36,8 +37,13 @@ class HomeViewModel @Inject constructor(
             emptyList()
         )
 
+    var currencyRateMap: CurrencyRateMap? = null
+
     private val _overlayStateFlow = MutableStateFlow<ScreenOverlayData>(ScreenOverlayData.Loading)
     val overlayStateFlow = _overlayStateFlow.asStateFlow()
+
+    private val _selectedPropertyModel = MutableStateFlow<PropertyCardModel?>(null)
+    val selectedPropertyModel = _selectedPropertyModel.asStateFlow()
 
     private suspend fun getPropertyList() {
         _overlayStateFlow.update { ScreenOverlayData.Loading }
@@ -51,5 +57,20 @@ class HomeViewModel @Inject constructor(
                 _propertyListStateFlow.update { result.data.propertyList }
             }
         }
+    }
+
+    private suspend fun getCurrencyRates() {
+        when (val result = homeRepository.getCurrencyRates()) {
+            is Result.Error -> {
+                // no-op
+            }
+            is Result.Success -> {
+                currencyRateMap = result.data
+            }
+        }
+    }
+
+    fun setSelectedProperty(propertyCardModel: PropertyCardModel?) {
+        _selectedPropertyModel.update { propertyCardModel }
     }
 }
