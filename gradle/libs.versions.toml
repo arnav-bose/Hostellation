@@ -40,7 +40,6 @@ projectApplicationId = "com.arnav.hostellation"
 
 [libraries]
 # Hilt
-androidx-hilt-lifecycle-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hiltLifecycleViewmodel" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "hiltAndroid" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
@@ -124,6 +123,6 @@ compose-debug = [
     "androidx-ui-test-manifest"
 ]
 hilt-ksp = ["hilt-compiler", "dagger-compiler", ]
-hilt = [ "hilt-android",  "androidx-hilt-lifecycle-viewmodel"]
-hilt-compose = ["hilt-android", "androidx-hilt-lifecycle-viewmodel", "androidx-hilt-navigation-compose"]
+hilt = [ "hilt-android"]
+hilt-compose = ["hilt-android", "androidx-hilt-navigation-compose"]
 
